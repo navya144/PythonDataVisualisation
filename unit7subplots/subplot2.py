@@ -14,5 +14,6 @@ plt.subplot(1, 2, 2)
 plt.scatter(dist2, dist1)
 plt.xlabel('dist2')
 plt.ylabel('dist1')
- 
+
+plt.show() 
 plt.tight_layout()
