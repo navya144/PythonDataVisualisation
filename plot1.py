@@ -9,6 +9,21 @@ x3_values = [2012, 2013, 2014, 2015]
 y3_values = [2, 2, 3, 5]
 
 import matplotlib.pyplot as plt
+
+plt.rcParams.update({
+    "lines.color": "white",
+    "patch.edgecolor": "white",
+    "text.color": "black",
+    "axes.facecolor": "white",
+    "axes.edgecolor": "lightgray",
+    "axes.labelcolor": "white",
+    "xtick.color": "white",
+    "ytick.color": "white",
+    "grid.color": "lightgray",
+    "figure.facecolor": "black",
+    "figure.edgecolor": "black",
+    "savefig.facecolor": "black",
+    "savefig.edgecolor": "black"})
  
 # include the values from the above segment here 
 plt.figure()
